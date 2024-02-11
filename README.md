@@ -28,7 +28,7 @@ The Luhn algorithm (also known as the Luhn formula or modulus 10 algorithm) is a
 To use this program, provide a credit card number as input and run the `validateMastercard` function. If the number is a valid Mastercard number, the function will return `true`; otherwise, it will return `false`.
 
 ```javascript
-const cardNumber = "5412345678901238"; // Example Mastercard number
+const cardNumber = "5412345678901232"; // Example Mastercard number
 if (validateMastercard(cardNumber)) {
     console.log("Valid Mastercard card number.");
 } else {

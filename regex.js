@@ -37,7 +37,7 @@ function luhnCheck(cardNumber) {
 }
 
 // Example usage:
-const cardNumber = "5412345678901208"; // Example Mastercard number
+const cardNumber = "5412345678901232"; // Example Mastercard number
 if (validateMastercard(cardNumber)) {
     console.log("Valid Mastercard card number.");
 } else {
